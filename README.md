@@ -30,8 +30,8 @@ Bu proje, Opet API'si aracılığıyla akaryakıt fiyatlarını çekmek ve belir
    - Proje başlatıldığında, `RestTemplate` ve `ObjectMapper` sınıfları otomatik olarak projeye dahil edilecektir.
 
 2. **API İsteği**:
-   - API URL'si `ProvinceCode` (il kodu) ve `districtName` (ilçe adı) parametreleriyle şekillenir.
-   - Örneğin, `İstanbul` (34 plaka kodu) ve `KARTAL` ilçesi için, API şu şekilde sorgulanır: 
+   - API URL'si `ProvinceCode` (il kodu) parametreleriyle şekillenir.
+   - Örneğin, `İstanbul` (34 plaka kodu) için, API şu şekilde sorgulanır: 
      ```
      https://api.opet.com.tr/api/fuelprices/prices?ProvinceCode=34&IncludeAllProducts=true
      ```
